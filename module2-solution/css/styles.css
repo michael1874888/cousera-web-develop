@@ -8,14 +8,14 @@ h1 {
 }
 
 section {
-    border: 1px solid black;
+    border: 3px solid black;
     background-color: #999898;
     width: calc(100% - 30px);
     margin: 15px;
 }
 
 h2 {
-    border: 1px solid black;
+    border: 2px solid black;
     width: 30%;
     height: 50px;
     font-family: Helvetica;
