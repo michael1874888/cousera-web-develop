@@ -24,7 +24,7 @@ body {
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .75;
+  line-height: .5;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -243,6 +243,7 @@ h3.menu-item-title {
     height: 80px;
   }
   .navbar-brand h1 { /* Restaurant name */
+    line-height: .75;
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
@@ -291,6 +292,7 @@ h3.menu-item-title {
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
+    line-height: .75;
     padding-top: 5px;
     font-size: 6vw;
   }
